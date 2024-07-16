@@ -9,11 +9,9 @@
     * LDA 3D視覺化：3d_LDA.py
     * LMBP：LMBP_Entropy_based_BackPropagation.py
 * 圖片位置：./ORL3232
+* python版本：3.11.7
 * 依賴
-    * scipy.io
-    * numpy
-    * PIL
-    * math
-    * random
-    * matplotlib
-    * mpl_toolkits.mplot3d
+    * scipy：1.11.4
+    * numpy：1.26.4
+    * pillow：10.2.0
+    * matplotlib：3.8.0

@@ -15,7 +15,7 @@ def weight_update(Input, weights, apha, bias, Target, epoch_lambda, Marquardt):
         all_A = []  #所有訓練資料的各層的輸出紀錄
         for train_input in Input:
             SUMs = []
-            A = [[train_input]]   #視為第0層輸入
+            A = [[train_input]]   #視為第0層輸入    
             for weight in range(0, len(weights)):
                 if weight == len(weights)-1:
                     #最後一層，即輸出層，Aout

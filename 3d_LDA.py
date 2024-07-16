@@ -1,6 +1,5 @@
 import numpy as np
 import matplotlib.pyplot as plt
-from mpl_toolkits.mplot3d import Axes3D
 from readPictures import readPictures
 from printMatrix import printMatrix
 from test_readPictures import get_ORL_PCA_MaxMin_Data
